@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-    title: "Dev Nexus",
+    title: "Nexus Tools",
     description: "Curated Collection of Modern Development Resources",
     icons: {
         icon: "/logo.jpg",
