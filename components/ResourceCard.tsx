@@ -66,7 +66,10 @@ export default function ResourceCard({ resource, index }: ResourceCardProps) {
                                     ? "bg-blue-400"
                                     : resource.category === "Design Resources"
                                         ? "bg-yellow-400"
-                                        : "bg-red-400"
+                                        : resource.category === "Databases"
+                                            ? "bg-red-400"
+                                            : "bg-purple-400"
+                                    
                         }`}
                     />
                 </div>

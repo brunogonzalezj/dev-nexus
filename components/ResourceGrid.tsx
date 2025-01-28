@@ -4,7 +4,7 @@ import { useState } from "react"
 import ResourceCard from "./ResourceCard"
 import { resources } from "@/app/utils/helpers"
 
-const categories = ["All", "UI Libraries", "React Tools", "Design Resources", "Databases"]
+const categories = ["All", "UI Libraries", "React Tools", "Design Resources", "Databases", "Backend Tools"]
 
 export default function ResourceGrid() {
     const [selectedCategory, setSelectedCategory] = useState("All")

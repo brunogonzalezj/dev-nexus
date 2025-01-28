@@ -176,7 +176,7 @@ export const resources: Resource[] = [
         category: "Backend Tools"
     },
     {
-        url: "https://www.jsonplaceholder.typicode.com/",
+        url: "https://jsonplaceholder.typicode.com/",
         title: "JSONPlaceholder",
         description: "JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.",
         category: "Backend Tools"
