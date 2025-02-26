@@ -4,6 +4,19 @@ import { useState } from "react"
 import ResourceCard from "./ResourceCard"
 import { resources } from "@/app/utils/helpers"
 
+const categoryColors: ICategoryColors = {
+    "All": "bg-purple-400",
+    "UI Libraries": "bg-green-400",
+    "React Tools": "bg-blue-400",
+    "Design Resources": "bg-yellow-400",
+    "Databases": "bg-red-400",
+    "Backend Tools": "bg-purple-400"
+}
+
+interface ICategoryColors {
+    [key: string]: string
+}
+
 const categories = ["All", "UI Libraries", "React Tools", "Design Resources", "Databases", "Backend Tools"]
 
 export default function ResourceGrid() {
@@ -18,8 +31,8 @@ export default function ResourceGrid() {
                 {categories.map((category) => (
                     <button
                         key={category}
-                        className={`px-4 py-2 rounded-full ${
-                            selectedCategory === category ? "bg-purple-500 text-white" : "bg-gray-700 text-gray-300"
+                        className={`px-4 py-2 rounded-full text-white transition-opacity ${categoryColors[category]} ${
+                            selectedCategory === category ? 'opacity-100' : 'opacity-60 hover:opacity-80'
                         }`}
                         onClick={() => setSelectedCategory(category)}
                     >
@@ -35,4 +48,3 @@ export default function ResourceGrid() {
         </section>
     )
 }
-
