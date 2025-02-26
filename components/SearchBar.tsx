@@ -27,7 +27,7 @@ export default function SearchBar() {
     }
 
     return (
-        <div className="relative max-w-md mx-auto mt-8">
+        <div className="relative max-w-md sm:mx-auto mt-8 mx-4 ">
             <input
                 type="text"
                 placeholder="Search resources..."
