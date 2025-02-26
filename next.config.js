@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
     images: {
-        domains: ["www.google.com"],
+        domains: ["www.google.com"]
     },
+    reactStrictMode: true,
     experimental: {
-        serverActions: true,
-    },
-}
+        appDir: true,
+        serverActions: true
+    }
+};
 
-module.exports = nextConfig
-
+module.exports = nextConfig;
