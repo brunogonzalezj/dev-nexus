@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     icons: {
         icon: "/logo.jpg",
         shortcut: "/logo.jpg",
+    },
+    verification: {
+        google: "XMP70sp5iFA9s6ZUkmQ4ldYSCki74sNMD1tIj5D86t4",
     }
 };
 
