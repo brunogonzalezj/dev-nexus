@@ -180,6 +180,11 @@ export const resources: Resource[] = [
         title: "JSONPlaceholder",
         description: "JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.",
         category: "Backend Tools"
+    },
+    {
+        url: "https://publicapis.dev/",
+        title: "Public APIs",
+        description: "A collective list of free APIs for use in software and web development.",
+        category: "Backend Tools"
     }
 ]
-
